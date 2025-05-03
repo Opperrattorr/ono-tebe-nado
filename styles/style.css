@@ -16,7 +16,13 @@
 }
 
 .header_logo {
-  width: 148px;
+  width: 136px;
+  height: 105px;
+}
+
+.header_logo_image {
+  display: block;
+  width: 100%;
 }
 
 .header_links-list_item_no-bullit {
@@ -27,11 +33,6 @@
   list-style: circle;
 }
 
-.header_menu {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-}
 
 .header_address {
   display: flex;
@@ -70,7 +71,7 @@
   letter-spacing: 0.3em;
   line-height: 115%;
   font-size: 100px;
-  padding-left: 50px;
+  padding-left: 51px;
   padding-top: 165px;
 }
 
@@ -80,8 +81,8 @@
   font-weight: 700;
   font-size: 100px;
   letter-spacing: 0.3em;
-  padding-left: 380.5px;
-  padding-top: 300px;
+  padding-left: 381.5px;
+  padding-top: 299px;
 }
 
 .aligned-text_right {
@@ -89,8 +90,8 @@
   text-transform: uppercase;
   font-size: 100px;
   letter-spacing: 0.3em;
-  padding-left: 663px;
-  padding-top: 435px;
+  padding-left: 665px;
+  padding-top: 434px;
 }
 
 .cover_description {
@@ -112,6 +113,7 @@
   text-transform: uppercase;
   width: 637px;
   height: 28px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -121,6 +123,9 @@
   width: 256px;
   height: 51px;
   font-size: 22px;
+  line-height: 100%;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .lots_card-list {
@@ -140,8 +145,9 @@
   font-size: 40px;
   text-transform: uppercase;
   width: 100%;
-  padding-top: 178px;
-  padding-left: 64px;
+  margin-top: 178px;
+  margin-left: 63px;
+  margin-right: 24px;
 }
 
 .card {
@@ -206,7 +212,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   align-items: center;
-  gap: 50px;
+  gap: 25px;
   padding: 120px 24px 0;
 }
 
@@ -232,26 +238,26 @@
 }
 
 .about_title {
-  margin-top: 136px;
-  margin-bottom: 100px;
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
   text-transform: uppercase;
+  margin-top: 136px;
+  margin-bottom: 100px;
 }
 
 .about_text {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  width: 693px;
+  width: 690px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
-  padding: 1px 50px 166px;
+  padding: 1px 50px 82px;
   margin-top: 180px;
 }
 
